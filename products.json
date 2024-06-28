@@ -1,0 +1,69 @@
+let jsonObject = {
+    "products": [
+      {
+        "image": "images/images/imageMask.png",
+        "topic": "Acceleration",
+        "fav":"icons/favourite.svg",
+        "subject":"Physics",
+        "grade":"7 + 2",
+        "unit": 4,
+        "lessons": 5,
+        "classes": 7,
+        "students":"500 students |",
+        "date":"28 june",
+        "foot1":"icons/grade submissions.svg",
+        "foot2":"icons/grade submissions.svg",
+        "foot3":"icons/grade submissions.svg",
+        "foot4":"icons/grade submissions.svg"
+      },
+      {
+        "image": "images/images/imageMask-1.png",
+        "topic": "Displacement, Velocity and Speed",
+        "fav":"icons/favourite.svg",
+        "subject":"Physics",
+        "grade":"4",
+        "unit": 4,
+        "lessons": 5,
+        "classes": 7,
+        "students":"500",
+        "date":"28 june",
+        "foot1":"icons/grade submissions.svg",
+        "foot2":"icons/grade submissions.svg",
+        "foot3":"icons/grade submissions.svg",
+        "foot4":"icons/grade submissions.svg"
+      },
+      {
+        "image": "images/images/imageMask-2.png",
+        "topic": "Introduction to Biology: Micro organisms and how they affec...",
+        "fav":"icons/favourite.svg",
+        "subject":"Physics",
+        "grade":"4",
+        "unit": 4,
+        "lessons": 5,
+        "classes": 7,
+        "students":"",
+        "date":"",
+        "foot1":"icons/grade submissions.svg",
+        "foot2":"icons/grade submissions.svg",
+        "foot3":"icons/grade submissions.svg",
+        "foot4":"icons/grade submissions.svg"
+      },
+      {
+        "image": "images/images/imageMask-3.png",
+        "topic": "Introduction to High School Mathematics",
+        "fav":"icons/favourite.svg",
+        "subject":"Physics",
+        "grade":"4",
+        "unit": 4,
+        "lessons": 5,
+        "classes": 7,
+        "students":"500",
+        "date":"28 june",
+        "foot1":"icons/grade submissions.svg",
+        "foot2":"icons/grade submissions.svg",
+        "foot3":"icons/grade submissions.svg",
+        "foot4":"icons/grade submissions.svg"
+      }
+    ]
+  };
+  

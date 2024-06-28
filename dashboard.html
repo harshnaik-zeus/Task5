@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sofia"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="products.json"></script>
+    <script src="alerts.json"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="icons/logo used in header.svg" alt="" />
+      <div class="navbar">
+        <ul class="navbar">
+          <li class="navcontent visible">DASHBOARD</li>
+          <li class="navcontent visible">
+            CONTENTS
+            <!-- <ul>
+              <li class="submenu">Course Content</li>
+            </ul> -->
+          </li>
+          <li class="navcontent visible">USERS</li>
+          <li class="navcontent visible">REPORTS</li>
+          <li class="navcontent visible">ADMIN</li>
+          <li class="navicons">
+            <img src="icons/alerts.svg" alt="" onclick="toggleNotifi()" />
+          </li>
+          <li class="navicons"><img src="icons/announcements.svg" alt="" /></li>
+          <li class="navicons"><img src="icons/alerts.svg" alt="" /></li>
+          <li class="navicons hammenu">
+            <img src="icons/hamburger-menu.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div id="box"></div>
+    <!-- <div id="box2"></div> -->
+    <div class="coursetype">
+      <div class="classes">
+        <img class="classicon" src="icons/classes.svg" alt="" />
+        <span class="classtext"
+          ><p class="num">4</p>
+          <p>Classes</p></span
+        >
+      </div>
+      <div class="courses">
+        <img class="classicon" src="icons/courses.svg" alt="" />
+        <span class="classtext"
+          ><p class="num">4</p>
+          <p>Courses</p></span
+        >
+      </div>
+    </div>
+    <div class="filter">
+      <span class="filtertext"> Showing 4 of 4 </span>
+      <span class="right">
+        <label class="filtertext"> sort by:</label>
+        <select class="filterselect">
+          <option>Course Name</option>
+          <option>Course Date</option>
+        </select>
+        <img src="icons/sort.svg" alt="" />
+      </span>
+    </div>
+    <hr class="line" />
+    <div id="container"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

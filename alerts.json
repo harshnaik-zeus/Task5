@@ -1,0 +1,41 @@
+let jsonObjectx = {
+    "alerts": [
+      {
+        "pa": "Wilson Kumar",
+        "message":"No classes will be held on 21st Nov",
+        "files":"2 files are attached",
+        "time":"15-Sep-2018 at 07:21 pm",
+      },
+      {
+        "pa": "Samson White",
+        "message":"Guest lecture on Geometry on 20th September",
+        "files":"2 files are attached",
+        "time":"15-Sep-2018 at 07:21 pm",
+      },
+      {
+        "pa": "Wilson Kumar",
+        "message":"Additional course materials available on request",
+        "files":"Course: Mathematics 101",
+        "time":"15-Sep-2018 at 07:21 pm",
+      },
+      {
+        "pa": "Wilson Kumar",
+        "message":"No classes will be held on 21st Nov",
+        "files":"2 files are attached",
+        "time":"15-Sep-2018 at 07:21 pm",
+      },
+      {
+        "pa": "Wilson Kumar",
+        "message":"No classes will be held on 25th Dec",
+        "files":"",
+        "time":"15-Sep-2018 at 07:21 pm",
+      },
+      {
+        "pa": "Wilson Kumar",
+        "message":"Additional course materials available on request",
+        "files":"2 files are attached",
+        "time":"15-Sep-2018 at 07:21 pm",
+      }
+    ]
+  };
+  
