@@ -12,9 +12,9 @@ let jsonObject = {
         "students":"500 students |",
         "date":"28 june",
         "foot1":"icons/grade submissions.svg",
-        "foot2":"icons/grade submissions.svg",
-        "foot3":"icons/grade submissions.svg",
-        "foot4":"icons/grade submissions.svg"
+        "foot2":"icons/preview.svg",
+        "foot3":"icons/reports.svg",
+        "foot4":"icons/manage course.svg"
       },
       {
         "image": "images/images/imageMask-1.png",
@@ -28,9 +28,9 @@ let jsonObject = {
         "students":"500",
         "date":"28 june",
         "foot1":"icons/grade submissions.svg",
-        "foot2":"icons/grade submissions.svg",
-        "foot3":"icons/grade submissions.svg",
-        "foot4":"icons/grade submissions.svg"
+        "foot2":"icons/preview.svg",
+        "foot3":"icons/reports.svg",
+        "foot4":"icons/manage course.svg"
       },
       {
         "image": "images/images/imageMask-2.png",
@@ -44,9 +44,9 @@ let jsonObject = {
         "students":"",
         "date":"",
         "foot1":"icons/grade submissions.svg",
-        "foot2":"icons/grade submissions.svg",
-        "foot3":"icons/grade submissions.svg",
-        "foot4":"icons/grade submissions.svg"
+        "foot2":"icons/preview.svg",
+        "foot3":"icons/reports.svg",
+        "foot4":"icons/manage course.svg"
       },
       {
         "image": "images/images/imageMask-3.png",
@@ -60,9 +60,9 @@ let jsonObject = {
         "students":"500",
         "date":"28 june",
         "foot1":"icons/grade submissions.svg",
-        "foot2":"icons/grade submissions.svg",
-        "foot3":"icons/grade submissions.svg",
-        "foot4":"icons/grade submissions.svg"
+        "foot2":"icons/preview.svg",
+        "foot3":"icons/reports.svg",
+        "foot4":"icons/manage course.svg"
       }
     ]
   };

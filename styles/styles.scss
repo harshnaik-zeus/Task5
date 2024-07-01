@@ -72,7 +72,7 @@
     position: absolute;
     color: #8ddc97;
     background: #FFFFEE;
-    z-index: 1;
+    // z-index: 1;
     height: 0px;
     width: 400px;
     z-index: 100;
@@ -130,7 +130,45 @@
         }
     }
 }
+#hamburger{
+    background: white;
+    color: #1F7A54;
+    position: absolute;
+    z-index: 10000;
+    width: 300px;
+    height: 350px;
+    // overflow: hidden;
+    right: 10px;
+    font-weight: 900;
+    box-shadow: #25313F inset;
+    overflow-y: scroll;
+    // animation: random($limit: 1) 1s timing-function 1s iteration-count direction fill-mode;
+    // animation: 3s ease-in 1s infinite reverse both running slidein;
 
+    @media screen and (min-width: 950px){
+        height: 0;
+        display: hidden;
+    }
+
+    .options{
+        // height: 48px;
+        // border: 1px solid rgb(139, 123, 123);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding-top: 15px;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 7px;
+        // animation: 3s ease-in 1s infinite reverse both running slidein;
+
+
+        .b1{
+            @include flexcenter();
+            justify-content: space-between;
+        }
+    }
+}
 // Header CSS 
 
 .coursetype{

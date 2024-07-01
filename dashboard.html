@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="products.json"></script>
     <script src="alerts.json"></script>
+    <script src="menu.json"></script>
     <title>Dashboard</title>
   </head>
   <body>
@@ -34,13 +35,13 @@
           <li class="navicons"><img src="icons/announcements.svg" alt="" /></li>
           <li class="navicons"><img src="icons/alerts.svg" alt="" /></li>
           <li class="navicons hammenu">
-            <img src="icons/hamburger-menu.svg" alt="" />
+            <img src="icons/hamburger-menu.svg" alt="" onclick="openmenu()" />
           </li>
         </ul>
       </div>
     </header>
     <div id="box"></div>
-    <!-- <div id="box2"></div> -->
+    <div id="hamburger"></div>
     <div class="coursetype">
       <div class="classes">
         <img class="classicon" src="icons/classes.svg" alt="" />

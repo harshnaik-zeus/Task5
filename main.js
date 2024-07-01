@@ -84,3 +84,36 @@ $(document).ready(function() {
         // document.getElementById('box2').appendChild(div);
     });
 });
+
+var hamburger  = document.getElementById('hamburger');
+var doww = false;
+let width = window.innerWidth;
+
+function openmenu(){
+	if (doww) {
+		hamburger.style.height  = '0px';
+		hamburger.style.opacity = 0;
+		doww = false;
+	}else {
+		hamburger.style.height  = '350px';
+		hamburger.style.opacity = 1;
+		doww = true;
+	}
+}
+
+$(document).ready(function() {
+    jsonObjecty.menu.forEach(menu => {
+        var div = document.createElement('div');
+        div.classList.add('options');
+
+        div.innerHTML = `
+             <div class="options"><span class = "b1">
+                    <p>${menu.option}</p>
+                    <img src="../${menu.img}">
+                </span></div>
+        `;
+
+        document.getElementById('hamburger').appendChild(div);
+       
+    });
+});

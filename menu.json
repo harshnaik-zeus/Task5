@@ -1,0 +1,25 @@
+let jsonObjecty = {
+    "menu": [
+        {
+            "option": "DASHBOARD",
+            "img": "icons/arrow-down.svg"
+        },
+        {
+            "option": "CONTENT",
+             "img": "icons/arrow-down.svg"
+        },
+        {
+            "option": "USERS",
+             "img": "icons/arrow-down.svg"
+        },
+        {
+            "option": "REPORTS",
+             "img": "icons/arrow-down.svg"
+        },
+        {
+            "option": "ADMIN",
+             "img": "icons/arrow-down.svg"
+        }
+    ]
+};
+  

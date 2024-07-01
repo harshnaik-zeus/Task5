@@ -55,7 +55,6 @@ body {
   position: absolute;
   color: #8ddc97;
   background: #FFFFEE;
-  z-index: 1;
   height: 0px;
   width: 400px;
   z-index: 100;
@@ -92,6 +91,40 @@ body {
 }
 #box .notification .a3 .a4 {
   display: flex;
+  justify-content: space-between;
+}
+
+#hamburger {
+  background: white;
+  color: #1F7A54;
+  position: absolute;
+  z-index: 10000;
+  width: 300px;
+  height: 350px;
+  right: 10px;
+  font-weight: 900;
+  box-shadow: #25313F inset;
+  overflow-y: scroll;
+}
+@media screen and (min-width: 950px) {
+  #hamburger {
+    height: 0;
+    display: hidden;
+  }
+}
+#hamburger .options {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-top: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 7px;
+}
+#hamburger .options .b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
 }
 
